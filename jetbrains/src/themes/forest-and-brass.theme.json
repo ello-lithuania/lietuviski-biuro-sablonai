@@ -1,0 +1,59 @@
+{
+  "name": "Forest and Brass",
+  "dark": false,
+  "author": "KokybiskaSvetaine.lt",
+  "editorScheme": "/themes/forest-and-brass.xml",
+  "colors": {
+    "bg": "#f8f3ea",
+    "bg2": "#efe7d9",
+    "ink": "#1f2a24",
+    "mut": "#59625c",
+    "acc": "#1f3329",
+    "line": "#e0d6c4",
+    "soft": "#e8dfcc"
+  },
+  "ui": {
+    "*": {
+      "background": "bg2",
+      "foreground": "ink",
+      "infoForeground": "mut",
+      "selectionBackground": "soft",
+      "selectionForeground": "ink",
+      "selectionInactiveBackground": "line",
+      "disabledForeground": "mut",
+      "separatorColor": "line",
+      "borderColor": "line",
+      "focusColor": "acc",
+      "focusedBorderColor": "acc",
+      "underlinedTabBackground": "bg",
+      "underlinedTabForeground": "acc"
+    },
+    "Button": {
+      "default": {
+        "startBackground": "acc",
+        "endBackground": "acc",
+        "foreground": "#ffffff"
+      }
+    },
+    "EditorTabs": {
+      "selectedBackground": "bg",
+      "underlineColor": "acc",
+      "background": "bg2"
+    },
+    "ToolWindow": {
+      "Header": {
+        "background": "bg2",
+        "inactiveBackground": "bg2"
+      }
+    },
+    "Tree": {
+      "background": "bg2"
+    },
+    "StatusBar": {
+      "background": "bg2"
+    },
+    "Link": {
+      "activeForeground": "acc"
+    }
+  }
+}

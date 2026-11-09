@@ -1,0 +1,59 @@
+{
+  "name": "Powder Blue Morning",
+  "dark": false,
+  "author": "KokybiskaSvetaine.lt",
+  "editorScheme": "/themes/powder-blue-morning.xml",
+  "colors": {
+    "bg": "#fbf9f4",
+    "bg2": "#eef2f6",
+    "ink": "#22303d",
+    "mut": "#566471",
+    "acc": "#3c5c7c",
+    "line": "#dde4ea",
+    "soft": "#dfe9f2"
+  },
+  "ui": {
+    "*": {
+      "background": "bg2",
+      "foreground": "ink",
+      "infoForeground": "mut",
+      "selectionBackground": "soft",
+      "selectionForeground": "ink",
+      "selectionInactiveBackground": "line",
+      "disabledForeground": "mut",
+      "separatorColor": "line",
+      "borderColor": "line",
+      "focusColor": "acc",
+      "focusedBorderColor": "acc",
+      "underlinedTabBackground": "bg",
+      "underlinedTabForeground": "acc"
+    },
+    "Button": {
+      "default": {
+        "startBackground": "acc",
+        "endBackground": "acc",
+        "foreground": "#ffffff"
+      }
+    },
+    "EditorTabs": {
+      "selectedBackground": "bg",
+      "underlineColor": "acc",
+      "background": "bg2"
+    },
+    "ToolWindow": {
+      "Header": {
+        "background": "bg2",
+        "inactiveBackground": "bg2"
+      }
+    },
+    "Tree": {
+      "background": "bg2"
+    },
+    "StatusBar": {
+      "background": "bg2"
+    },
+    "Link": {
+      "activeForeground": "acc"
+    }
+  }
+}

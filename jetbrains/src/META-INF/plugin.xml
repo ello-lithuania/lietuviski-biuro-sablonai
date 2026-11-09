@@ -1,0 +1,20 @@
+<idea-plugin>
+  <id>lt.kokybiskasvetaine.steadfast-themes</id>
+  <name>Steadfast Light Themes</name>
+  <version>1.0.0</version>
+  <vendor url="https://kokybiskasvetaine.lt/">KokybiskaSvetaine.lt</vendor>
+  <description><![CDATA[
+    <p>Four light themes with warm paper backgrounds and one accent colour, made for long reading and writing sessions. Text colours meet WCAG AA contrast on the background.</p>
+    <ul><li><b>Steadfast Green</b>: colours taken from <a href="https://kokybiskasvetaine.lt/">KokybiskaSvetaine.lt</a>.</li><li><b>Plum Evening</b>: colours taken from <a href="https://vestuviumetines.lt/">Vestuvių metinės</a>.</li><li><b>Forest and Brass</b>: colours taken from <a href="https://dovanasuvardu.lt/">Dovanos su vardu</a>.</li><li><b>Powder Blue Morning</b>: colours taken from <a href="https://krikstynudovana.lt/">Krikštynų dovana</a>.</li></ul>
+    <p>Choose a theme in Settings, Appearance and Behavior, Appearance.</p>
+  ]]></description>
+  <change-notes><![CDATA[<p>First release.</p>]]></change-notes>
+  <idea-version since-build="223"/>
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="lt.kokybiskasvetaine.steadfast.steadfast-green" path="/themes/steadfast-green.theme.json"/>
+    <themeProvider id="lt.kokybiskasvetaine.steadfast.plum-evening" path="/themes/plum-evening.theme.json"/>
+    <themeProvider id="lt.kokybiskasvetaine.steadfast.forest-and-brass" path="/themes/forest-and-brass.theme.json"/>
+    <themeProvider id="lt.kokybiskasvetaine.steadfast.powder-blue-morning" path="/themes/powder-blue-morning.theme.json"/>
+  </extensions>
+</idea-plugin>

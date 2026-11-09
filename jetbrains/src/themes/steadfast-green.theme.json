@@ -1,0 +1,59 @@
+{
+  "name": "Steadfast Green",
+  "dark": false,
+  "author": "KokybiskaSvetaine.lt",
+  "editorScheme": "/themes/steadfast-green.xml",
+  "colors": {
+    "bg": "#faf7f1",
+    "bg2": "#f0ebe0",
+    "ink": "#18211e",
+    "mut": "#56615c",
+    "acc": "#0d5c4b",
+    "line": "#e3dccd",
+    "soft": "#d9ebe4"
+  },
+  "ui": {
+    "*": {
+      "background": "bg2",
+      "foreground": "ink",
+      "infoForeground": "mut",
+      "selectionBackground": "soft",
+      "selectionForeground": "ink",
+      "selectionInactiveBackground": "line",
+      "disabledForeground": "mut",
+      "separatorColor": "line",
+      "borderColor": "line",
+      "focusColor": "acc",
+      "focusedBorderColor": "acc",
+      "underlinedTabBackground": "bg",
+      "underlinedTabForeground": "acc"
+    },
+    "Button": {
+      "default": {
+        "startBackground": "acc",
+        "endBackground": "acc",
+        "foreground": "#ffffff"
+      }
+    },
+    "EditorTabs": {
+      "selectedBackground": "bg",
+      "underlineColor": "acc",
+      "background": "bg2"
+    },
+    "ToolWindow": {
+      "Header": {
+        "background": "bg2",
+        "inactiveBackground": "bg2"
+      }
+    },
+    "Tree": {
+      "background": "bg2"
+    },
+    "StatusBar": {
+      "background": "bg2"
+    },
+    "Link": {
+      "activeForeground": "acc"
+    }
+  }
+}

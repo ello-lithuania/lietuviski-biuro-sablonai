@@ -1,0 +1,4 @@
+*.vsix
+*.jar
+node_modules/
+dist/

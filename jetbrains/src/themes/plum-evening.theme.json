@@ -1,0 +1,59 @@
+{
+  "name": "Plum Evening",
+  "dark": false,
+  "author": "KokybiskaSvetaine.lt",
+  "editorScheme": "/themes/plum-evening.xml",
+  "colors": {
+    "bg": "#fbf7f4",
+    "bg2": "#f2e9ec",
+    "ink": "#2a1a26",
+    "mut": "#655660",
+    "acc": "#6d2e5e",
+    "line": "#e6d8df",
+    "soft": "#efdfea"
+  },
+  "ui": {
+    "*": {
+      "background": "bg2",
+      "foreground": "ink",
+      "infoForeground": "mut",
+      "selectionBackground": "soft",
+      "selectionForeground": "ink",
+      "selectionInactiveBackground": "line",
+      "disabledForeground": "mut",
+      "separatorColor": "line",
+      "borderColor": "line",
+      "focusColor": "acc",
+      "focusedBorderColor": "acc",
+      "underlinedTabBackground": "bg",
+      "underlinedTabForeground": "acc"
+    },
+    "Button": {
+      "default": {
+        "startBackground": "acc",
+        "endBackground": "acc",
+        "foreground": "#ffffff"
+      }
+    },
+    "EditorTabs": {
+      "selectedBackground": "bg",
+      "underlineColor": "acc",
+      "background": "bg2"
+    },
+    "ToolWindow": {
+      "Header": {
+        "background": "bg2",
+        "inactiveBackground": "bg2"
+      }
+    },
+    "Tree": {
+      "background": "bg2"
+    },
+    "StatusBar": {
+      "background": "bg2"
+    },
+    "Link": {
+      "activeForeground": "acc"
+    }
+  }
+}

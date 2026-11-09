@@ -1,0 +1,54 @@
+{
+  "name": "steadfast-themes",
+  "displayName": "Steadfast Light Themes",
+  "description": "Four light themes with warm paper backgrounds and one accent colour.",
+  "version": "1.0.0",
+  "publisher": "kokybiskasvetaine",
+  "license": "MIT",
+  "icon": "icon.png",
+  "homepage": "https://kokybiskasvetaine.lt/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ello-lithuania/steadfast-editor-themes.git",
+    "directory": "vscode"
+  },
+  "bugs": {
+    "url": "https://github.com/ello-lithuania/steadfast-editor-themes/issues"
+  },
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "light",
+    "paper",
+    "reading"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Steadfast Green",
+        "uiTheme": "vs",
+        "path": "./themes/steadfast-green-color-theme.json"
+      },
+      {
+        "label": "Plum Evening",
+        "uiTheme": "vs",
+        "path": "./themes/plum-evening-color-theme.json"
+      },
+      {
+        "label": "Forest and Brass",
+        "uiTheme": "vs",
+        "path": "./themes/forest-and-brass-color-theme.json"
+      },
+      {
+        "label": "Powder Blue Morning",
+        "uiTheme": "vs",
+        "path": "./themes/powder-blue-morning-color-theme.json"
+      }
+    ]
+  }
+}

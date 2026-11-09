@@ -1,0 +1,70 @@
+name: Build and test
+on:
+  push:
+  workflow_dispatch:
+jobs:
+  vim:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq vim
+      - name: Load every scheme and fail on any error
+        run: |
+          for f in vim/colors/*.vim; do
+            n=$(basename "$f" .vim)
+            rm -f /tmp/err
+            vim -u NONE -N -e -s --cmd "set rtp^=$PWD/vim" -c "set termguicolors" -c "redir! > /tmp/err" -c "colorscheme $n" -c "redir END" -c "if g:colors_name !=# '$n' | cquit | endif" -c "qa!" || { echo "failed $n"; cat /tmp/err; exit 1; }
+            if grep -E '^E[0-9]+' /tmp/err; then exit 1; fi
+            echo "ok $n"
+          done
+  vscode:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npx --yes @vscode/vsce@3 package --no-dependencies
+        working-directory: vscode
+      - uses: actions/upload-artifact@v4
+        with:
+          name: vsix
+          path: vscode/*.vsix
+  jetbrains:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+      - run: python3 jetbrains/build.py
+      - name: Run the IntelliJ Plugin Verifier
+        run: |
+          V=$(curl -s https://api.github.com/repos/JetBrains/intellij-plugin-verifier/releases/latest | python3 -c "import json,sys;print(json.load(sys.stdin)['tag_name'].lstrip('v'))")
+          curl -sL -o verifier.jar "https://github.com/JetBrains/intellij-plugin-verifier/releases/download/$V/verifier-cli-$V-all.jar" || true
+          [ -s verifier.jar ] && unzip -tq verifier.jar >/dev/null 2>&1 || curl -sL -o verifier.jar "https://packages.jetbrains.team/maven/p/intellij-plugin-verifier/intellij-plugin-verifier/org/jetbrains/intellij/plugins/verifier-cli/$V/verifier-cli-$V-all.jar"
+          curl -sL -o ide.tar.gz https://download.jetbrains.com/idea/ideaIC-2024.3.5.tar.gz
+          mkdir ide && tar xzf ide.tar.gz -C ide --strip-components=1
+          java -jar verifier.jar check-plugin jetbrains/dist/steadfast-themes.jar ide 2>&1 | tail -40 | tee verify.txt
+          grep -Eiq 'invalid|broken plugin|compatibility problem' verify.txt && exit 1 || echo verified
+      - uses: actions/upload-artifact@v4
+        with:
+          name: jar
+          path: jetbrains/dist/*.jar
+  dist:
+    needs: [vim, vscode, jetbrains]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: dist
+          merge-multiple: true
+      - run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -f dist
+          git diff --cached --quiet || (git commit -m "Build the packages" && git pull --rebase && git push)

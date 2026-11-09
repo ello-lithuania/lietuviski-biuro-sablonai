@@ -1,0 +1,28 @@
+<scheme name="Plum Evening" version="142" parent_scheme="Default">
+  <colors>
+    <option name="CARET_COLOR" value="6d2e5e" />
+    <option name="CARET_ROW_COLOR" value="f2e9ec" />
+    <option name="GUTTER_BACKGROUND" value="f2e9ec" />
+    <option name="LINE_NUMBERS_COLOR" value="655660" />
+    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="6d2e5e" />
+    <option name="SELECTION_BACKGROUND" value="efdfea" />
+    <option name="INDENT_GUIDE" value="e6d8df" />
+    <option name="TEARLINE_COLOR" value="e6d8df" />
+  </colors>
+  <attributes>
+    <option name="TEXT"><value><option name="FOREGROUND" value="2a1a26" /><option name="BACKGROUND" value="fbf7f4" /></value></option>
+    <option name="DEFAULT_KEYWORD"><value><option name="FOREGROUND" value="6d2e5e" /><option name="FONT_TYPE" value="1" /></value></option>
+    <option name="DEFAULT_STRING"><value><option name="FOREGROUND" value="8c5a1d" /></value></option>
+    <option name="DEFAULT_NUMBER"><value><option name="FOREGROUND" value="8c5a1d" /></value></option>
+    <option name="DEFAULT_CONSTANT"><value><option name="FOREGROUND" value="8c5a1d" /></value></option>
+    <option name="DEFAULT_LINE_COMMENT"><value><option name="FOREGROUND" value="655660" /><option name="FONT_TYPE" value="2" /></value></option>
+    <option name="DEFAULT_BLOCK_COMMENT"><value><option name="FOREGROUND" value="655660" /><option name="FONT_TYPE" value="2" /></value></option>
+    <option name="DEFAULT_DOC_COMMENT"><value><option name="FOREGROUND" value="655660" /><option name="FONT_TYPE" value="2" /></value></option>
+    <option name="DEFAULT_FUNCTION_DECLARATION"><value><option name="FOREGROUND" value="55234a" /><option name="FONT_TYPE" value="1" /></value></option>
+    <option name="DEFAULT_CLASS_NAME"><value><option name="FOREGROUND" value="55234a" /><option name="FONT_TYPE" value="1" /></value></option>
+    <option name="DEFAULT_ATTRIBUTE"><value><option name="FOREGROUND" value="8c5a1d" /></value></option>
+    <option name="DEFAULT_METADATA"><value><option name="FOREGROUND" value="8c5a1d" /></value></option>
+    <option name="DEFAULT_IDENTIFIER"><value><option name="FOREGROUND" value="2a1a26" /></value></option>
+    <option name="DEFAULT_PARAMETER"><value><option name="FOREGROUND" value="2a1a26" /><option name="FONT_TYPE" value="2" /></value></option>
+  </attributes>
+</scheme>
