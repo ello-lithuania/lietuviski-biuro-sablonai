@@ -27,4 +27,4 @@ Aplanke [`previews`](previews) yra iš šablonų sugeneruoti vaizdai. Jie kuriam
 
 ## Licencija
 
-[CC BY-SA 4.0](LICENSE). Šablonus galite laisvai naudoti, keisti ir platinti, nurodę šaltinį. Vardadienių sąrašas parengtas pagal Vikipedijos duomenis (CC BY-SA).
+Šablonus galite laisvai naudoti, keisti ir platinti, nurodę šaltinį. Sąskaita ir krikštynų planuoklė platinamos pagal CC BY 4.0, o kalendorius ir metinių planuoklė pagal CC BY-SA 4.0, nes juose naudojami Vikipedijos duomenys. Daugiau faile [LICENSE](LICENSE).
