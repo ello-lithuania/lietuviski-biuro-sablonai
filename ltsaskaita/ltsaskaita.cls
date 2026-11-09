@@ -267,20 +267,43 @@
     \end{tabularx}
   }
 
+\int_new:N \g__lts_pvm_int
+\tl_new:N \l__lts_viso_tl
+\cs_new_protected:Npn \__lts_skaiciuoti_pvm:
+  {
+    \if@ltspvm
+      \int_gset:Nn \g__lts_pvm_int
+        { \fp_to_int:n { round ( \int_use:N \g__lts_suma_int * ( \g__lts_tarifas_tl ) / 100 , 0 ) } }
+    \else
+      \int_gzero:N \g__lts_pvm_int
+    \fi
+  }
+% The rows are built before the table, because every cell of a table is a group.
 \cs_new_protected:Npn \__lts_viso:
   {
+    \__lts_skaiciuoti_pvm:
+    \tl_clear:N \l__lts_viso_tl
+    \if@ltspvm
+      \tl_put_right:Nx \l__lts_viso_tl
+        {
+          \exp_not:n { Suma~be~PVM & }
+          \__lts_pinigai:n { \int_use:N \g__lts_suma_int }
+          \exp_not:n { \,EUR \tabularnewline PVM~ }
+          \g__lts_tarifas_tl
+          \exp_not:n { \,\% & }
+          \__lts_pinigai:n { \int_use:N \g__lts_pvm_int }
+          \exp_not:n { \,EUR \tabularnewline }
+        }
+    \fi
+    \tl_put_right:Nx \l__lts_viso_tl
+      {
+        \exp_not:n { \textbf{Iš~viso} & \textbf }
+        { \__lts_pinigai:n { \int_eval:n { \g__lts_suma_int + \g__lts_pvm_int } } \exp_not:n { \,EUR } }
+        \exp_not:n { \tabularnewline }
+      }
     \hfill
     \begin{tabular}{@{} l r @{}}
-      \if@ltspvm
-        \int_set:Nn \l__lts_pvm_int
-          { \fp_to_int:n { round ( \int_use:N \g__lts_suma_int * ( \g__lts_tarifas_tl ) / 100 , 0 ) } }
-        Suma~be~PVM & \__lts_pinigai:n { \int_use:N \g__lts_suma_int } ~EUR \tabularnewline
-        PVM~\g__lts_tarifas_tl\,\% & \__lts_pinigai:n { \int_use:N \l__lts_pvm_int } ~EUR \tabularnewline
-      \else
-        \int_zero:N \l__lts_pvm_int
-      \fi
-      \textbf{Iš~viso} &
-      \textbf{ \__lts_pinigai:n { \int_eval:n { \g__lts_suma_int + \l__lts_pvm_int } } ~EUR } \tabularnewline
+      \tl_use:N \l__lts_viso_tl
     \end{tabular}
     \par
   }
@@ -326,13 +349,8 @@
   }
 \cs_new_protected:Npn \__lts_suma_viso:
   {
-    \if@ltspvm
-      \int_set:Nn \l__lts_pvm_int
-        { \fp_to_int:n { round ( \int_use:N \g__lts_suma_int * ( \g__lts_tarifas_tl ) / 100 , 0 ) } }
-    \else
-      \int_zero:N \l__lts_pvm_int
-    \fi
-    \exp_args:Nx \sumazodziais { \int_eval:n { \g__lts_suma_int + \l__lts_pvm_int } }
+    \__lts_skaiciuoti_pvm:
+    \exp_args:Nx \sumazodziais { \int_eval:n { \g__lts_suma_int + \g__lts_pvm_int } }
   }
 \ExplSyntaxOff
 \endinput
