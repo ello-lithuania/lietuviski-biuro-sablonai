@@ -9,7 +9,7 @@ Terminą galite pakeisti langelyje „Apmokėti iki“: skaičių 14 formulėje 
 Šablonas yra pagalbinė priemonė. Privalomus rekvizitus pasitikslinkite pagal galiojančius VMI reikalavimus.
 
 Šabloną parengė: KokybiskaSvetaine.lt
-"Licencija: CC BY-SA 4.0. Šabloną galite laisvai naudoti, keisti ir platinti, nurodę šaltinį."
+"Licencija: CC BY 4.0. Šabloną galite laisvai naudoti, keisti ir platinti, nurodę šaltinį."
 === saskaita-faktura-Sąskaita.csv
 SĄSKAITA FAKTŪRA,,,,,
 Serija ir numeris,,,ABC 0001,,

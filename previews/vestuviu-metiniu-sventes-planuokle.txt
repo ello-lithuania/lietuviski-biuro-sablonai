@@ -4,7 +4,7 @@ Page size:       595.304 x 841.89 pts (A4)
 Apie šį šabloną
 "Lape „Metinės“ įrašykite vestuvių datą. Biudžeto, svečių ir darbų lapai skirti šventei suplanuoti."
 "Geltoni langeliai skirti pildyti, sumos apskaičiuojamos automatiškai."
-"Metinių pavadinimai skirtinguose šaltiniuose kartais skiriasi, todėl čia pateikiami labiausiai paplitę."
+"Metinių pavadinimai skirtinguose šaltiniuose kartais skiriasi, todėl čia pateikiami labiausiai paplitę (sutikrinta su Vikipedija, CC BY-SA)."
 
 Šabloną parengė: Vestuvių metinės
 "Licencija: CC BY-SA 4.0. Šabloną galite laisvai naudoti, keisti ir platinti, nurodę šaltinį."

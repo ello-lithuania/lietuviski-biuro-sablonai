@@ -7,7 +7,7 @@ Apie šį šabloną
 "Dokumentų ir pasirengimo reikalavimai įvairiose parapijose gali skirtis, todėl juos pasitikslinkite savo parapijoje."
 
 Šabloną parengė: Krikštynų dovana
-"Licencija: CC BY-SA 4.0. Šabloną galite laisvai naudoti, keisti ir platinti, nurodę šaltinį."
+"Licencija: CC BY 4.0. Šabloną galite laisvai naudoti, keisti ir platinti, nurodę šaltinį."
 === krikstynu-planuokle-Biudžetas.csv
 Krikštynų biudžetas,,,,
 Įrašykite planuojamas ir faktines išlaidas eurais.,,,,
