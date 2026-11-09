@@ -1,0 +1,204 @@
+Pages:           14
+Page size:       841.89 x 595.304 pts (A4)
+=== kalendorius-2027-su-vardadieniais-Apie šabloną.csv
+Apie šį šabloną
+Kiekviename mėnesio lape prie datos rodomi keturi pirmieji tos dienos vardadieniai. Tekstą galite keisti arba papildyti savo šventėmis.
+Kiekvienas mėnuo telpa į vieną gulsčią A4 lapą. Paskutiniame lape – visos 2027 metų šventės.
+Vardadienių sąrašas parengtas pagal Vikipedijos duomenis (CC BY-SA).
+"Prieš planuodami svarbius darbus, nedarbo dienas pasitikslinkite pagal galiojantį Darbo kodeksą."
+
+Šabloną parengė: Dovanos su vardu
+"Licencija: CC BY-SA 4.0. Šabloną galite laisvai naudoti, keisti ir platinti, nurodę šaltinį."
+=== kalendorius-2027-su-vardadieniais-Balandis.csv
+Balandis 2027,,,,,,
+Pirmadienis,Antradienis,Trečiadienis,Ketvirtadienis,Penktadienis,Šeštadienis,Sekmadienis
+,,,1,2,3,4
+,,,"Dainora, Hugonas, Rimgaudas, Teodoras","Elona, Jostautas, Jostautė, Pranciškus","Kristijonas, Ričardas, Rimtautė, Vytenis","Algaudas, Ambraziejus, Eglė, Izidorius"
+5,6,7,8,9,10,11
+"Irena, Rimvydas, Zenius, Zenonas","Celestinas, Dagnė, Daugirutis, Žintautė","Donata, Hermanas, Minvydas, Kantautė","Alma, Girtautas, Julija, Skirgailė","Aurimas, Dalia, Gitana, Kleopas","Agna, Apolonijus, Margarita, Mintautas","Daugailė, Leonas, Vykintas, Arielė"
+12,13,14,15,16,17,18
+"Damijonas, Galmantas, Julius, Jūratė","Ida, Mingaudas, Algaudė, Idalija","Justinas, Vaišvydė, Valerijonas, Visvaldas","Gema, Liudvina, Modestas, Vaidotė","Algedė, Giedrius, Kalikstas, Ūdrys","Anicetas, Dravenis, Robertas, Skaidra","Apolonijus, Eitvilas, Girmantė, Undinė"
+19,20,21,22,23,24,25
+"Aistė, Eirimas, Laisvūnas, Leontina","Agnė, Eisvydė, Gostautas, Marcijonas","Amalija, Anzelmas, Milgedas, Skalvė","Kajus, Leonas, Leonidas, Norvaidė","Adalbertas, Daugaudas, Jurga, Jurgis","Ervina, Fidelis, Gražvyda, Kantrimas","Morkus, Tolmantas, Žadmantė, Žadmantas"
+26,27,28,29,30,,
+"Dargailė, Gailenis, Klaudijus, Vilūnė","Anastazas, Aušra, Edilija, Gotautas","Rimgailė, Valerija, Vitalius, Vygantas","Augustinas, Indrė, Rita, Tarmantas","Marijonas, Sofija, Venta, Virbutas",,
+=== kalendorius-2027-su-vardadieniais-Birželis.csv
+Birželis 2027,,,,,,
+Pirmadienis,Antradienis,Trečiadienis,Ketvirtadienis,Penktadienis,Šeštadienis,Sekmadienis
+,1,2,3,4,5,6
+,"Galindė, Jogaila, Juvencijus, Konradas","Auksė, Ąžuolas, Erazmas, Eugenijus","Dovilė, Klotilda, Tautkantas, Karolis","Dausprungas, Deimena, Kornelijus, Pranciškus","Kantautas, Kantvydė, Marcė, Kantalgas","Tėvo diena
+Bogumilas, Mėta, Norbertas, Paulina"
+7,8,9,10,11,12,13
+"Lukrecija, Radvydė, Ratautas, Roberta","Eigintė, Medardas, Merūnas, Edgaras","Felicijonas, Felicijus, Gintas, Gintė","Galindas, Liutgarda, Margarita, Pelagija","Aluona, Flora, Tvirmantas, Barnarbas","Anupras, Dovė, Kristė, Kristijonas","Akvilina, Antanas, Kunotas, Skalvė"
+14,15,16,17,18,19,20
+"Almina, Digna, Labvardas, Bazilijus","Bargailė, Krescencija, Tanvilas, Vitas","Benas, Julita, Jūra, Tolminas","Adolfas, Daugantas, Laura, Vilmantė","Arnulfas, Ginbutas, Marina, Vaiva","Deodatas, Dovilas, Ramunė, Gervazas","Florentina, Nandas, Silverijus, Žadvainas"
+21,22,23,24,25,26,27
+"Alicija, Aloyzas, Galminas, Vasarė","Inocentas, Kaributas, Laima, Paulinas","Agripina, Arvydas, Ligita, Vaida","Joninės
+Eiviltas, Janina, Jonas, Ansas","Baniutė, Geistautas, Geistautė, Geisvydas","Jaunius, Jaunutis, Viltautė, Virgilijus","Ema, Gediminas, Norgailė, Vladas"
+28,29,30,,,,
+"Gaudrė, Irenėjus, Tulgedas, Serena","Benita, Gedrimė, Mantigirdas, Petras","Adelė, Emilija, Liucina, Tautginas",,,,
+=== kalendorius-2027-su-vardadieniais-Gegužė.csv
+Gegužė 2027,,,,,,
+Pirmadienis,Antradienis,Trečiadienis,Ketvirtadienis,Penktadienis,Šeštadienis,Sekmadienis
+,,,,,1,2
+,,,,,"Darbo diena
+Anelė, Vydmantė, Zigmantas, Zigmas","Motinos diena
+Atanazas, Eidmantas, Meilė, Meilutė"
+3,4,5,6,7,8,9
+"Arvystas, Juvenalis, Kantvydė, Aleksandras","Dargailas, Florijonas, Mintautė, Monika","Angelas, Anielius, Barvydas, Neris","Benedikta, Eidmantė, Judita, Liucijus","Butautas, Danutė, Domicelė, Domicijonas","Džiugas, Mykolas, Stasys, Audrė","Austėja, Edita, Grigalius, Mingailas"
+10,11,12,13,14,15,16
+"Putinas, Sangailė, Viktorina, Antoninas","Mamertas, Miglė, Pilypas, Skirgaudas","Achilas, Nerėjas, Nerijus, Vaidutis","Alvydė, Tautmilas, Milda, Ofelija","Bonifacas, Gintaras, Gintarė, Motiejus","Algedas, Izidorius, Jaunutė, Sofija","Bitė, Ubaldas, Vaidmantas, Andriejus"
+17,18,19,20,21,22,23
+"Bazilė, Gailė, Paskalis, Virkantas","Erdvilas, Erikas, Julita, Rytė","Celestinas, Gilvinas, Tauras","Akvilas, Alfreda, Eidvilas, Vygintė","Teobaldas, Vaidevutis, Valentas, Vydmina","Aldona, Eimantas, Elena, Julė","Gertautas, Ivona, Tautvydė, Žydrūnas"
+24,25,26,27,28,29,30
+"Gerardas, Gina, Vilmantas, Žana","Almantas, Bedas, Danutė, Urbonas","Algimantas, Eduardas, Milvydė, Pilypas","Brunonas, Genadijus, Leonora, Virgaudas","Augustinas, Jogirdas, Rima, Justas","Algedas, Erdvilė, Magdalena, Magdė","Ferdinandas, Joana, Vyliaudas, Žana"
+31,,,,,,
+"Angelė, Gintautas, Petronėlė, Rimvilė",,,,,,
+=== kalendorius-2027-su-vardadieniais-Gruodis.csv
+Gruodis 2027,,,,,,
+Pirmadienis,Antradienis,Trečiadienis,Ketvirtadienis,Penktadienis,Šeštadienis,Sekmadienis
+,,1,2,3,4,5
+,,"Algmina, Butigeidas, Eligijus, Natalija","Aurelija, Milmantė, Paulina, Svirgailas","Audinga, Gailintas, Ksaveras, Atalija","Barbora, Liugailė, Osmundas, Vainotas","Eimintas, Gratas, Eimina, Eiminė"
+6,7,8,9,10,11,12
+"Bilmantas, Mikalojus, Norvydė, Bylenis","Ašmantas, Ašmantė, Laigeda, Laigedas","Zenonas, Vaidgina, Gedimina, Gedminas","Gedenė, Leokadija, Vakaris, Valerija","Eidimtas, Ilma, Loreta, Eidas","Aistis, Dovydas, Aistė, Artūras","Dagmara, Gaiva, Gilmina, Gilminas"
+13,14,15,16,17,18,19
+"Eiviltė, Kastautas, Kastytis, Liucija","Alfredas, Kintvilė, Tarvainas, Alfreda","Gaudenė, Gaudenis, Justas, Kristijona","Albina, Algina, Alina, Audronė","Drovydė, Jolanta, Mantgailas, Olimpija","Eivilė, Gracijonas, Eivilas, Eivina","Darijus, Gerdvilas, Rimantė, Lėja"
+20,21,22,23,24,25,26
+"Daugardas, Gražvilė, Teofilis, Abraomas","Girenė, Tomas, Norgaudė, Abraomas","Gedvydas, Ksavera, Zenonas, Dovilė","Mina, Veliuona, Viktorija, Vilbutas","Kūčios
+Adomas, Ieva, Adas, Adelė","Kalėdos
+Eugenija, Genė, Gražvydas, Sanrimė","Kalėdos (2 d.)
+Gaudilė, Gindvilė, Steponas, Gaudilas"
+27,28,29,30,31,,
+"Dautartas, Fabijolė, Gedvinė, Dautarta","Ema, Ingeborga, Irvita, Kamilė","Gaja, Gentvainas, Teofilė, Tomas","Dovydas, Gražvilas, Sabinas, Gedrimas","Melanija, Mingailė, Silvestras, Gedganta",,
+=== kalendorius-2027-su-vardadieniais-Kovas.csv
+Kovas 2027,,,,,,
+Pirmadienis,Antradienis,Trečiadienis,Ketvirtadienis,Penktadienis,Šeštadienis,Sekmadienis
+1,2,3,4,5,6,7
+"Albinas, Antanė, Antanina, Rusnė","Dautara, Eitautas, Elena, Marcelinas","Kunigunda, Nonita, Tulė, Uosis","Daina, Daugvydas, Kazimieras, Vaclava","Aurora, Austra, Giedrė, Klemensas","Gerasimas, Norvilas, Raminta, Rožė","Felicita, Galmantė, Rimtautas, Tomas"
+8,9,10,11,12,13,14
+"Beata, Gaudvilė, Vydminas, Ašvilas","Dominykas, Pranciška, Pranė, Visgailė","Butgailė, Emilis, Geraldas, Naubartas","Kovo 11-oji
+Gedimtas, Konstantinas, Kostas, Vijolė","Darmantė, Galvirdas, Teofanas, Goštautas","Kristina, Liutauras, Vaidilė, Liutaurė","Darmantas, Karigailė, Matilda, Darmantė"
+15,16,17,18,19,20,21
+"Klemensas, Lionginas, Lukrecija, Raigardas","Henrika, Norvilė, Vaidotas, Julijonas","Gendvilas, Gentvila, Gerda, Gertrūda","Anzelmas, Eimutė, Eimutis, Sibilė","Juozapas, Juozas, Vilė, Vilys","Filomenas, Irma, Irmantas, Irmgarda","Benediktas, Lingailė, Nortautas, Reda"
+22,23,24,25,26,27,28
+"Benvenutas, Gedgaudas, Gedgaudė, Kotryna","Akvilė, Alfonsas, Ūla, Vismantė","Daumantas, Donardas, Gabrielius, Ganvilė","Normantas, Normantė, Merkys, Normilė","Arbutas, Emanuelis, Liudgaras, Teklė","Alkmenas, Lidija, Rupertas, Rūta","Velykos
+Girmantė, Odeta, Rimkantas, Sikstas"
+29,30,31,,,,
+"Velykų pirmadienis
+Almantė, Bertoldas, Manvydas, Helmutas","Anelė, Ferdinandas, Gvidonas, Meda","Benjaminas, Gina, Ginas, Kornelija",,,,
+=== kalendorius-2027-su-vardadieniais-Lapkritis.csv
+Lapkritis 2027,,,,,,
+Pirmadienis,Antradienis,Trečiadienis,Ketvirtadienis,Penktadienis,Šeštadienis,Sekmadienis
+1,2,3,4,5,6,7
+"Visų šventųjų
+Andrius, Milvydė, Žygaudas, Milvydas","Vėlinės
+Gedartas, Valys, Valentinas, Gedvilė","Hubertas, Norvainė, Silvija, Vidmantė","Agrikola, Eibartas, Karolis, Modesta","Audangas, Elžbieta, Florijonas, Gedvydė","Ašmantas, Leonardas, Melanijus, Vygaudė","Ernestas, Gotautė, Karina, Sirtautas"
+8,9,10,11,12,13,14
+"Domantė, Gotfridas, Severijonas, Severinas","Dargintas, Estela, Skirtautė, Teodoras","Andrius, Leonas, Vaišviltas, Evelina","Anastazija, Martynas, Milvydė, Nastė","Juozapotas, Kristinas, Renata, Ašmantas","Arkadijus, Eirimė, Norvydas","Emilis, Judita, Ramantas, Saulenė"
+15,16,17,18,19,20,21
+"Albertas, Leopoldas, Vaidilas, Žadvydė","Edmundas, Gerdvilė, Gertrūda, Vaišvydas","Getautas, Gilvilė, Viktorija, Dionyzas","Ginvydas, Ginvydė, Otas, Otonas","Dainius, Matilda, Rimgaudė, Dainotas","Feliksas, Jovydas, Vaidvilė, Neringa","Alberta, Eibartė, Gomantas, Honorijus"
+22,23,24,25,26,27,28
+"Cecilija, Cilė, Dargintė, Steigintas","Adelė, Doviltas, Klemensas, Kolumbanas","Mantvinas, Žybartas, Gerardas","Germilė, Kotryna, Santautas, Jaukanta","Dobilas, Silvestras, Vygantė, Dobilė","Girvydė, Maksimas, Skomantas, Virgilijus","Rimgaudas, Vakarė, Egmontas, Eidenė"
+29,30,,,,,
+"Butvydė, Daujotas, Saturnas, Saturninas","Andriejus, Andrius, Dovainė, Saugirdas",,,,,
+=== kalendorius-2027-su-vardadieniais-Liepa.csv
+Liepa 2027,,,,,,
+Pirmadienis,Antradienis,Trečiadienis,Ketvirtadienis,Penktadienis,Šeštadienis,Sekmadienis
+,,,1,2,3,4
+,,,"Julijus, Julius, Liepa, Tautrimas","Gantautė, Jotvingas, Marijonas, Martinijonas","Anatolijus, Liaudmina, Tomas, Vaidilas","Berta, Gedgailė, Malvina, Skalvis"
+5,6,7,8,9,10,11
+"Butginas, Filomena, Karolina, Antanas","Valstybės diena
+Domė, Dominyka, Ginvilė, Nerilė","Astijus, Estera, Sangailas, Vilgailė","Arnoldas, Elzė, Elžbieta, Vaitautas","Algirdas, Algirdė, Leonardas, Marcelina","Amalija, Eirimė, Gilvainas, Prudencija","Kipras, Pijus, Vilmantas, Benediktas"
+12,13,14,15,16,17,18
+"Izabelė, Margiris, Sigitas, Vyliaudė","Anakletas, Anys, Arvilas, Arvilė","Eigilė, Kamilas, Libertas, Vydas","Bonaventūras, Gerimantė, Henrikas, Mantas","Danguolė, Faustas, Marija, Vaigaudas","Aleksas, Darius, Girėnas, Vaiga","Eimantė, Ervinas, Fridrikas, Kamilis"
+19,20,21,22,23,24,25
+"Aurėja, Galigantas, Mantigailė, Vincentas","Alvyda, Alvydas, Česlovas, Elijas","Danielius, Lionginas, Rimvydas, Rimvydė","Dalius, Magdalena, Mantilė","Apolinaras, Brigita, Gilmina, Romula","Dargvilas, Dargvilė, Kristina, Kristupas","Jokūbas, Kargaudas, Kristoforas, Kristupas"
+26,27,28,29,30,31,
+"Daugintas, Eigirdė, Joakimas, Ona","Natalija, Panteleonas, Sergijus, Svalia","Ada, Augmina, Inocentas, Nazaras","Beatričė, Mantvydas, Mantvydė, Morta","Abdonas, Donatilė, Nortautas, Radvilė","Elena, Ignacas, Ignotas, Sanginas",
+=== kalendorius-2027-su-vardadieniais-Rugpjūtis.csv
+Rugpjūtis 2027,,,,,,
+Pirmadienis,Antradienis,Trečiadienis,Ketvirtadienis,Penktadienis,Šeštadienis,Sekmadienis
+,,,,,,1
+,,,,,,"Almeda, Bartautas, Bartautė, Alfonsas"
+2,3,4,5,6,7,8
+"Alfonsas, Euzebijus, Guoda, Gustavas","Augustė, Mangirdas, Lengvinė, Lidija","Dominykas, Gerimantas, Milgedė, Domantas","Mintarė, Nona, Osvaldas, Rimtas","Bylotas, Daiva, Sikstas, Karolina","Drąsutis, Jogilė, Kajetonas, Klaudija","Daina, Elidijus, Gustavas, Tulgirdas"
+9,10,11,12,13,14,15
+"Mintaras, Rolanda, Rolandas, Romanas","Asterija, Astra, Laima, Laurynas","Ligija, Visalgas, Visvilė, Zuzana","Klara, Laimona, Laimonas, Radegunda","Diana, Gilvilė, Ipolitas, Kasijonas","Euzebijus, Grintautas, Guostė, Maksimilijonas","Žolinė
+Napalys, Napoleonas, Rugilė, Sigita"
+16,17,18,19,20,21,22
+"Alvita, Butvydas, Jokimas, Rokas","Hiacintas, Jacintas, Jackus, Mažvilė","Gendvilė, Ilona, Mantautas, Elena","Argaudas, Balys, Boleslovas, Tolvina","Bernardas, Neringa, Tolvinas, Beržas","Gaudvydas, Joana, Kazimiera, Linda","Ipolitas, Karijotas, Rimantė, Siga"
+23,24,25,26,27,28,29
+"Girmantas, Pilypas, Tautgailė, Rožė","Baltramiejus, Rasuolė, Viešvilas, Alicija","Liucilė, Liudas, Liudvikas, Mangailas","Aleksandras, Algintė, Gailutis, Zefirinas","Aušrinė, Cezarijus, Tolvydas, Geidė","Augustina, Steigvilė, Tarvilas","Barvydas, Beatričė, Gaudvydė, Sabina"
+30,31,,,,,
+"Adauktas, Augūna, Gaudencija, Joris","Raimondas, Raimunda, Raimundas, Vilmantas",,,,,
+=== kalendorius-2027-su-vardadieniais-Rugsėjis.csv
+Rugsėjis 2027,,,,,,
+Pirmadienis,Antradienis,Trečiadienis,Ketvirtadienis,Penktadienis,Šeštadienis,Sekmadienis
+,,1,2,3,4,5
+,,"Egidijus, Gytautas, Gytis, Verena","Ingrida, Protenis, Steponas, Vilgaudė","Berta, Bronislava, Bronislovas, Mirga","Germantė, Germina, Girstautas, Rozalija","Dingailė, Erdenis, Justina, Stanislava"
+6,7,8,9,10,11,12
+"Beata, Faustas, Tautenė, Vaištautas","Bartas, Bartė, Klodas, Klodoaldas","Adrijonas, Daumantė, Klementina, Liaugaudas","Argintas, Ramutė, Serapina, Sergijus","Konstancija, Mikalojus, Tautgirdas, Dionyzas","Augantas, Gytautė, Gytė, Helga","Gvidas, Marija, Tolvaldas, Vaidmantė"
+13,14,15,16,17,18,19
+"Barmantas, Barvydė","Eisvina, Eisvinas, Krescencijus, Sanija","Nikodemas, Vismantas, Eugenija, Rimgailė","Edita, Eufemija, Jogintė, Kamilė","Pranas, Pranciškus, Sintautas, Sintautė","Galmantė, Mingailas, Stefa, Stefanija","Girvinas, Vilė, Vilhelmina, Vytė"
+20,21,22,23,24,25,26
+"Eustachijus, Fausta, Tautgirdė, Vainora","Mantvilas, Matas, Viskintė","Mauricijus, Tarvinas, Tomas, Virmantė","Galintas, Galintė, Lina, Linas","Gedvinas, Gedvinė, Gerardas","Aurelija, Kleopas, Ramvydė, Vaigintas","Damijonas, Gražina, Justė, Justina"
+27,28,29,30,,,
+"Adalbertas, Daugilė, Kovaldas, Damijonas","Lana, Svetlana, Tautvydas, Vacys","Kęsgailas, Kęsgailė, Michalina, Mykolas","Jeronimas, Sofija, Žymantas, Bytautė",,,
+=== kalendorius-2027-su-vardadieniais-Sausis.csv
+Sausis 2027,,,,,,
+Pirmadienis,Antradienis,Trečiadienis,Ketvirtadienis,Penktadienis,Šeštadienis,Sekmadienis
+,,,,1,2,3
+,,,,"Naujieji metai
+Arvaidas, Arvaidė, Eufrozija, Eufrozina","Bazilijus, Fulgentas, Gailutė, Mažvydas","Genovaitė, Vida, Viltautas, Vyda"
+4,5,6,7,8,9,10
+"Andželika, Anželika, Arimantas, Arimantė","Gaudentas, Simas, Simonas, Telesforas","Arūnas, Arūnė, Baltazaras, Kasparas","Liucijus, Rūtenis, Jaugeda, Jaugedas","Apolinaras, Gintė, Vilintas, Severinas","Algis, Gabija, Marcijona, Bazilė","Agatonas, Ginvilas, Ginvilė, Vilhelmas"
+11,12,13,14,15,16,17
+"Audrius, Marcijonas, Palemonas, Vilnė","Cezarija, Ernestas, Lingailė, Vaigedas","Dargaudas, Gilvydė, Iveta, Raimonda","Auksė, Feliksas, Hilarijus, Laimis","Meda, Paulius, Skirgaila, Snieguolė","Marcelis, Norgailas, Norgailė, Leikantas","Dovainis, Leonilė, Vilda, Antanas"
+18,19,20,21,22,23,24
+"Gedgaudas, Jogailė, Jolita, Liberta","Gedvilė, Kanutas, Marijus, Marius","Daugvydas, Fabijonas, Nomeda, Daugvyda","Agnietė, Galiginas, Garsė, Inesa","Anastazas, Aušrius, Skaistė, Vincas","Gailigedas, Gunda, Raimundas, Armandas","Artūras, Felicija, Gaivilė, Milena"
+25,26,27,28,29,30,31
+"Povilas, Viltenis, Žiedė, Paulius","Eigilė, Justas, Paulė, Rimantas","Ilona, Jogundas, Jogundė, Natalis","Gedautas, Leonidas, Manfredas, Nijolė","Aivaras, Girkantas, Valerijus, Žibutė","Banguolė, Hiacinta, Ipolitas, Jacinta","Budvilė, Luiza, Marcelė, Skirmantas"
+=== kalendorius-2027-su-vardadieniais-Spalis.csv
+Spalis 2027,,,,,,
+Pirmadienis,Antradienis,Trečiadienis,Ketvirtadienis,Penktadienis,Šeštadienis,Sekmadienis
+,,,,1,2,3
+,,,,"Benigna, Mantas, Mintė, Remigijus","Eidvilas, Getautė, Modestas, Gervilė","Alanta, Evaldas, Milgintas, Teresė"
+4,5,6,7,8,9,10
+"Eivydė, Mąstautas, Pranciškus, Edvinas","Donata, Galė, Gilda, Palemonas","Brunonas, Budvydas, Vytenė, Renatas","Butrimas, Eivina, Justina, Morkus","Aina, Brigita, Daugas, Demetras","Dionyzas, Gedėtas, Virgailė, Gedimtas","Butautė, Danielius, Gilvydas, Danys"
+11,12,13,14,15,16,17
+"Daugvydė, Germanas, Rimgaudas, Zina","Deimintė, Gantas, Rudolfas, Salvinas","Edgaras, Eduardas, Edvardas, Mintaras","Fortunata, Kalikstas, Mindaugas, Rimvydė","Domantė, Leonardas, Teresė, Galimintas","Ambraziejus, Dovaidas, Dovaidė, Dovaldė","Gytė, Kintautas, Margarita, Marijonas"
+18,19,20,21,22,23,24
+"Kęsmina, Liubartas, Lukas, Vaiva","Akvilinas, Frida, Geisvilas, Izaokas","Adelė, Adelina, Gedas, Adelija","Gilanda, Hiliaras, Raitvilas, Uršulė","Aliodija, Mingedė, Severinas, Viltaras","Odilija, Ramvydė, Sanginas","Daugailas, Gilbertas, Rapolas, Švitrigailė"
+25,26,27,28,29,30,31
+"Darija, Inga, Krizantas, Krizas","Evaristas, Liaudginas, Mingintė, Vita","Ramojus, Sabina, Tautmilė, Vincentas","Gaudrimas, Judas, Tadas, Almantė","Ermelinda, Gelgaudas, Narcizas, Tolvydė","Darata, Edmundas, Skirgaila, Skirvydė","Tanvilė, Alfonsas, Liucilė, Vygandas"
+=== kalendorius-2027-su-vardadieniais-Vasaris.csv
+Vasaris 2027,,,,,,
+Pirmadienis,Antradienis,Trečiadienis,Ketvirtadienis,Penktadienis,Šeštadienis,Sekmadienis
+1,2,3,4,5,6,7
+"Brigita, Eidvilė, Gytautas, Ignotas","Orinta, Rytys, Valdas, Valdemaras","Asta, Blažiejus, Blažys, Oskaras","Andriejus, Andrius, Arvilė, Joana","Agata, Agota, Birutė, Gaudvinas","Alkis, Darata, Oksana, Titas","Jomantė, Ričardas, Romualdas, Vilgirdas"
+8,9,10,11,12,13,14
+"Daugvilė, Dromantas, Honorata, Saliamonas","Algė, Apolonija, Erika, Erikas","Elvyra, Gabrielius, Girvydas, Skolė","Adolfas, Algirdas, Algirdė, Liucijus","Benediktas, Deimantas, Deimantė, Eulalija","Algaudas, Benignas, Kotryna, Ugnė","Kirilas, Lijana, Liliana, Saulė"
+15,16,17,18,19,20,21
+"Girdenė, Girdenis, Jovita, Jurgina","Vasario 16-oji
+Julijona, Julijonas, Tautvydė, Ulė","Donata, Donatas, Vaišvilas, Viltė","Bernadeta, Gendrė, Lengvenis, Simeonas","Konradas, Nida, Šarūnas, Zuzana","Aidas, Eitvydė, Leonas, Visgintas","Eleonora, Feliksas, Kęstutis, Žemyna"
+22,23,24,25,26,27,28
+"Darvydas, Elvinas, Gintautė, Margarita","Butvilė, Gantautas, Roma, Romana","Gedmantas, Goda, Matas, Motiejus","Margiris, Rasa, Regimantas, Viktoras","Aleksandras, Aurimė, Izabelė, Jogintas","Gabrielius, Ginvilas, Livija, Mandravas","Romanas, Romas, Vilgardas, Žygimantė"
+=== kalendorius-2027-su-vardadieniais-Šventės.csv
+2027 metų šventės ir nedarbo dienos,,
+Data,Savaitės diena,Šventė
+2027-01-01,penktadienis,Naujieji metai
+2027-02-16,antradienis,Lietuvos valstybės atkūrimo diena
+2027-03-11,ketvirtadienis,Lietuvos nepriklausomybės atkūrimo diena
+2027-03-28,sekmadienis,Velykos
+2027-03-29,pirmadienis,Antroji Velykų diena
+2027-05-01,šeštadienis,Tarptautinė darbo diena
+2027-05-02,sekmadienis,Motinos diena
+2027-06-06,sekmadienis,Tėvo diena
+2027-06-24,ketvirtadienis,Rasos ir Joninių diena
+2027-07-06,antradienis,Valstybės (Lietuvos karaliaus Mindaugo karūnavimo) diena
+2027-08-15,sekmadienis,Žolinė
+2027-11-01,pirmadienis,Visų šventųjų diena
+2027-11-02,antradienis,Mirusiųjų atminimo (Vėlinių) diena
+2027-12-24,penktadienis,Kūčios
+2027-12-25,šeštadienis,Kalėdos
+2027-12-26,sekmadienis,Antroji Kalėdų diena

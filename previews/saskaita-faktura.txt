@@ -1,0 +1,47 @@
+Pages:           2
+Page size:       595.304 x 841.89 pts (A4)
+=== saskaita-faktura-Apie šabloną.csv
+Apie šį šabloną
+"Geltonus langelius pakeiskite savo duomenimis. Sumos, PVM ir apmokėjimo terminas apskaičiuojami automatiškai."
+PVM mokėtojams: antraštę pakeiskite į „PVM sąskaita faktūra“ ir įrašykite PVM mokėtojo kodą.
+"Ne PVM mokėtojams: PVM tarifą pakeiskite į 0 %, o eilutes apie PVM galite ištrinti."
+Terminą galite pakeisti langelyje „Apmokėti iki“: skaičių 14 formulėje pakeiskite norimu dienų skaičiumi.
+Šablonas yra pagalbinė priemonė. Privalomus rekvizitus pasitikslinkite pagal galiojančius VMI reikalavimus.
+
+Šabloną parengė: KokybiskaSvetaine.lt
+"Licencija: CC BY-SA 4.0. Šabloną galite laisvai naudoti, keisti ir platinti, nurodę šaltinį."
+=== saskaita-faktura-Sąskaita.csv
+SĄSKAITA FAKTŪRA,,,,,
+Serija ir numeris,,,ABC 0001,,
+Išrašymo data,,,,,
+Apmokėti iki (po 14 dienų),,,,,
+,,,,,
+Pardavėjas,,,Pirkėjas,,
+"Įmonės pavadinimas arba vardas, pavardė",,,"Įmonės pavadinimas arba vardas, pavardė",,
+Įmonės kodas arba individualios veiklos pažymos Nr.,,,Įmonės kodas,,
+PVM mokėtojo kodas (jei esate PVM mokėtojas),,,PVM mokėtojo kodas (jei yra),,
+Adresas,,,Adresas,,
+Banko sąskaita (IBAN) ir bankas,,,El. paštas arba telefonas,,
+"El. paštas, telefonas",,,,,
+,,,,,
+Nr.,Prekė arba paslauga,Kiekis,Mato vnt.,"Kaina, €","Suma, €"
+1,,,,,
+2,,,,,
+3,,,,,
+4,,,,,
+5,,,,,
+6,,,,,
+7,,,,,
+8,,,,,
+9,,,,,
+10,,,,,
+,,,,Suma be PVM,0
+,,,,PVM tarifas,21%
+,,,,PVM suma,0
+,,,,Iš viso mokėti,0
+,,,,,
+Suma žodžiais,,,,,
+Pastabos,,,,,
+,,,,,
+"Sąskaitą išrašė (vardas, pavardė, parašas)",,,,,
+"Sąskaitą priėmė (vardas, pavardė, parašas)",,,,,

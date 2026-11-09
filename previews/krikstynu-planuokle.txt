@@ -1,0 +1,102 @@
+Pages:           6
+Page size:       595.304 x 841.89 pts (A4)
+=== krikstynu-planuokle-Apie šabloną.csv
+Apie šį šabloną
+"Lape „Pagrindinis“ surašykite svarbiausią informaciją. Biudžeto, svečių, darbų ir dovanų lapai skirti pasiruošti ir nieko nepamiršti."
+"Geltoni langeliai skirti pildyti, sumos apskaičiuojamos automatiškai."
+"Dokumentų ir pasirengimo reikalavimai įvairiose parapijose gali skirtis, todėl juos pasitikslinkite savo parapijoje."
+
+Šabloną parengė: Krikštynų dovana
+"Licencija: CC BY-SA 4.0. Šabloną galite laisvai naudoti, keisti ir platinti, nurodę šaltinį."
+=== krikstynu-planuokle-Biudžetas.csv
+Krikštynų biudžetas,,,,
+Įrašykite planuojamas ir faktines išlaidas eurais.,,,,
+Išlaidos,Planuota,Faktiškai,Skirtumas,Pastabos
+Auka parapijai,,,0,
+Krikšto žvakė,,,0,
+"Krikšto drabužėlis, skraistė",,,0,
+"Vaišės, salės nuoma",,,0,
+Maistas ir gėrimai,,,0,
+Tortas,,,0,
+Dekoracijos,,,0,
+Fotografas,,,0,
+Kvietimai,,,0,
+Dovanėlės svečiams,,,0,
+Kita,,,0,
+Iš viso,0,0,0,
+,,,,
+"Geltoni langeliai skirti pildyti. Skirtumas ir sumos apskaičiuojami automatiškai. Teigiamas skirtumas reiškia, kad išleidote mažiau, nei planavote.",,,,
+=== krikstynu-planuokle-Darbai.csv
+Pasiruošimo darbai,,,
+Sąrašą keiskite pagal savo šventę. Atliktus darbus pažymėkite stulpelyje „Atlikta“.,,,
+Kada,Darbas,Atsakingas,Atlikta
+Prieš 8 savaites,Pasirinkti krikšto tėvus ir paprašyti jų sutikimo,,
+Prieš 8 savaites,"Susisiekti su parapija: data, reikalingi dokumentai, pasirengimas",,
+Prieš 6 savaites,Užsisakyti vaišių vietą arba nuspręsti švęsti namuose,,
+Prieš 5 savaites,Sudaryti svečių sąrašą ir išsiųsti kvietimus,,
+Prieš 4 savaites,"Įsigyti krikšto drabužėlį, skraistę ir žvakę",,
+Prieš 3 savaites,"Užsisakyti tortą, susitarti su fotografu",,
+Prieš 2 savaites,Paprašyti svečių patvirtinti atvykimą,,
+Prieš savaitę,Pasitikslinti laiką ir dokumentus parapijoje,,
+Prieš savaitę,"Pasitikslinti svečių skaičių, paruošti dekoracijas",,
+Krikštynų išvakarėse,"Susidėti krepšį vaikui: drabužėlis, žvakė, atsarginiai drabužiai",,
+Po krikštynų,"Padėkoti svečiams ir krikšto tėvams, atsiųsti nuotraukų",,
+,,,
+,,,
+,,,
+,,,
+Atlikta darbų,,,0
+=== krikstynu-planuokle-Dovanos.csv
+Dovanos ir padėkos,,
+"Užsirašykite, kas ką padovanojo, kad būtų lengva padėkoti.",,
+Kas dovanojo,Dovana,Padėkota
+=== krikstynu-planuokle-Pagrindinis.csv
+Krikštynų planuoklė,
+"Čia surašykite svarbiausią informaciją, kad ji visada būtų po ranka.",
+Vaiko vardas,
+Krikšto data ir laikas,
+Bažnyčia,
+"Kunigas, kontaktai parapijoje",
+Krikšto mama,
+Krikšto tėtis,
+Vaišių vieta,
+Vaišių pradžia,
+Svečių skaičius,
+,
+Biudžetas iš viso (planuota),0
+Biudžetas iš viso (faktiškai),0
+Atvyks svečių,0
+=== krikstynu-planuokle-Svečiai.csv
+Svečių sąrašas,,,,
+"Stulpelyje „Atvyks“ pasirinkite Taip arba Ne. Žmonių skaičius sumuojamas tik tiems, kurie atvyks.",,,,
+"Vardas, pavardė",Kvietimas išsiųstas,Atvyks,Žmonių,"Mityba, pastabos"
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+Atvyks iš viso,,,0,
+Kvietimų išsiųsta,,,0,
