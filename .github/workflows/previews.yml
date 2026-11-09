@@ -32,7 +32,7 @@ jobs:
             soffice --headless --convert-to pdf --outdir check "$f"
             soffice --headless --convert-to 'csv:Text - txt - csv (StarCalc):44,34,76,1,,0,false,true,false,false,false,-1' --outdir "check/$n" "$f"
             pdfinfo "check/$n.pdf" | grep -E 'Pages|Page size' > "previews/$n.txt"
-            pdftoppm -png -r 70 "check/$n.pdf" "previews/$n"
+            pdftoppm -png -r 110 "check/$n.pdf" "previews/$n"
           done
           for d in check/*/; do
             n=$(basename "$d")
