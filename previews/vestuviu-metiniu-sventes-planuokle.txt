@@ -50,7 +50,7 @@ Atlikta darbų,,,0
 === vestuviu-metiniu-sventes-planuokle-Metinės.csv
 Kelintos Jūsų metinės?,,
 "Įrašykite vestuvių datą, ir šablonas apskaičiuos artimiausias metines.",,
-Vestuvių data,2002-06-15,← pakeiskite savo data
+Vestuvių data,2002-06-15,← įrašykite savo datą
 Artimiausių metinių data,2027-06-15,
 Kelintos tai bus metinės,25,
 Tradicinis pavadinimas,sidabrinės vestuvės,

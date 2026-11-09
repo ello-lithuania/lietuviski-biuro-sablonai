@@ -35,10 +35,10 @@ Nr.,Prekė arba paslauga,Kiekis,Mato vnt.,"Kaina, €","Suma, €"
 8,,,,,
 9,,,,,
 10,,,,,
-,,,,Suma be PVM,0
-,,,,PVM tarifas,21%
-,,,,PVM suma,0
-,,,,Iš viso mokėti,0
+,,,Suma be PVM,,0
+,,,PVM tarifas,,21%
+,,,PVM suma,,0
+,,,Iš viso mokėti,,0
 ,,,,,
 Suma žodžiais,,,,,
 Pastabos,,,,,
