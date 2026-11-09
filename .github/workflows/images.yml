@@ -1,0 +1,52 @@
+name: Build, test and publish
+on:
+  push:
+  workflow_dispatch:
+env:
+  HUB: kokybiskasvetaine
+jobs:
+  image:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: steadfast
+            path: /
+            expect: Steadfast
+          - name: vardadieniai
+            path: /11-09
+            expect: names
+          - name: vestuviu-metines
+            path: /25
+            expect: sidabrin
+          - name: naujagimiu-vardai
+            path: /2024/mergaites
+            expect: Sofija
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build
+        run: docker build -t "$HUB/${{ matrix.name }}:latest" "${{ matrix.name }}"
+      - name: Test
+        run: |
+          docker run -d --rm --name t -p 8080:80 "$HUB/${{ matrix.name }}:latest"
+          sleep 3
+          curl -sf "http://localhost:8080${{ matrix.path }}" | tee out.txt | head -c 300
+          grep -q "${{ matrix.expect }}" out.txt
+          docker stop t
+      - name: Publish
+        env:
+          TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
+        run: |
+          if [ -z "$TOKEN" ]; then echo "no token, build and test only"; exit 0; fi
+          echo "$TOKEN" | docker login -u "$HUB" --password-stdin
+          docker push "$HUB/${{ matrix.name }}:latest"
+      - name: Set the description
+        if: ${{ github.ref_name == 'main' }}
+        uses: peter-evans/dockerhub-description@v4
+        with:
+          username: kokybiskasvetaine
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          repository: kokybiskasvetaine/${{ matrix.name }}
+          readme-filepath: ${{ matrix.name }}/DOCKERHUB.md
+          short-description: ${{ matrix.name }} image, small and with no outside services
