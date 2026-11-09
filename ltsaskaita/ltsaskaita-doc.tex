@@ -1,0 +1,61 @@
+\documentclass{ltsaskaita}
+\usepackage{hologo}
+\newcommand\cs[1]{\texttt{\textbackslash #1}}
+\setlength{\parskip}{4pt}
+\begin{document}
+\begin{center}
+{\Large\bfseries The ltsaskaita class}\par\vspace{2mm}
+Invoices in Lithuanian, version 1.0, 2026-11-09\par
+Justas Arbatauskis
+\end{center}
+
+\section*{What it does}
+The class typesets a Lithuanian invoice (\emph{sąskaita faktūra}). It adds up the lines, works out the VAT, and writes the total in words with the correct grammatical forms. It works with pdf\LaTeX, Xe\LaTeX\ and Lua\LaTeX.
+
+The class does not give tax advice. Ask an accountant which details your invoices must show.
+
+\section*{Use}
+\begin{verbatim}
+\documentclass[pvm]{ltsaskaita}
+\serija{KS}
+\numeris{0042}
+\israsyta{2026 m. lapkričio 9 d.}
+\terminas{2026 m. lapkričio 23 d.}
+\pardavejas{UAB „Pavyzdys“\\Įmonės kodas 123456789}
+\pirkejas{MB „Bandymas“\\Įmonės kodas 987654321}
+\begin{document}
+\preke{Svetainės kūrimas}{1}{vnt.}{1000.00}
+\preke{Svetainės priežiūra}{12}{mėn.}{49.00}
+\saskaita
+\end{document}
+\end{verbatim}
+
+\section*{Commands}
+\begin{description}
+\item[\cs{preke}\{name\}\{quantity\}\{unit\}\{price\}] adds a line. Write numbers with a decimal point.
+\item[\cs{saskaita}] prints the invoice. Call it after the last \cs{preke}.
+\item[\cs{serija}, \cs{numeris}, \cs{israsyta}, \cs{terminas}, \cs{pastaba}] set the series, number, date, payment date and a note.
+\item[\cs{pardavejas}, \cs{pirkejas}] set the seller and buyer. Separate the lines with \verb|\\|.
+\item[\cs{pvmtarifas}\{rate\}] sets the VAT rate in per cent. The default is 21.
+\item[\cs{skaiciuszodziais}\{number\}] prints a whole number in words, up to 999\,999\,999.
+\item[\cs{sumazodziais}\{cents\}] prints an amount in euros and cents, given in cents.
+\end{description}
+The class option \texttt{pvm} prints the VAT lines and the title \emph{PVM sąskaita faktūra}. Without it, the invoice has no VAT lines.
+
+\section*{Numbers in words}
+\begin{tabular}{r l}
+1 & \skaiciuszodziais{1} \\
+21 & \skaiciuszodziais{21} \\
+112 & \skaiciuszodziais{112} \\
+1\,001 & \skaiciuszodziais{1001} \\
+21\,000 & \skaiciuszodziais{21000} \\
+1\,250\,000 & \skaiciuszodziais{1250000} \\
+\end{tabular}
+
+\sumazodziais{192148}\par
+\sumazodziais{1100}\par
+\sumazodziais{200}\par
+
+\section*{Licence and links}
+LaTeX Project Public License 1.3c. Source and issues: \texttt{github.com/ello-lithuania/latex-lietuviskai}. Home page: \texttt{kokybiskasvetaine.lt}.
+\end{document}

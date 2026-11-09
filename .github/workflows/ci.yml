@@ -1,0 +1,65 @@
+name: Build and test
+on:
+  push:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: xu-cheng/latex-action@v3
+        name: LuaLaTeX
+        with:
+          working_directory: ltsaskaita
+          root_file: |
+            ltsaskaita-doc.tex
+            ltsaskaita-pavyzdys.tex
+          latexmk_use_lualatex: true
+      - uses: xu-cheng/latex-action@v3
+        name: LuaLaTeX name days
+        with:
+          working_directory: vardadieniai
+          root_file: vardadieniai-doc.tex
+          latexmk_use_lualatex: true
+      - name: Test the text in the PDFs
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+          pdftotext -layout ltsaskaita/ltsaskaita-pavyzdys.pdf a.txt
+          cat a.txt
+          grep -q 'Vienas tūkstantis devyni šimtai dvidešimt vienas euras, 48 centai' a.txt
+          grep -q '1 921,48' a.txt
+          grep -q '333,48' a.txt
+          pdftotext ltsaskaita/ltsaskaita-doc.pdf b.txt
+          cat b.txt | tail -30
+          grep -q 'vienas šimtas dvylika' b.txt
+          grep -q 'dvidešimt vienas tūkstantis' b.txt
+          grep -q 'vienas milijonas du šimtai penkiasdešimt tūkstančių' b.txt
+          grep -q 'Vienuolika eurų, 0 centų' b.txt
+          grep -q 'Du eurai, 0 centų' b.txt
+          pdftotext vardadieniai/vardadieniai-doc.pdf c.txt
+          grep -q 'Justas' c.txt
+      - name: pdfLaTeX
+        run: |
+          mkdir -p t && cp ltsaskaita/*.cls ltsaskaita/ltsaskaita-pavyzdys.tex vardadieniai/*.sty vardadieniai/vardadieniai-doc.tex t/
+      - uses: xu-cheng/latex-action@v3
+        name: pdfLaTeX build
+        with:
+          working_directory: t
+          root_file: |
+            ltsaskaita-pavyzdys.tex
+            vardadieniai-doc.tex
+      - name: Test pdfLaTeX output
+        run: |
+          pdftotext -layout t/ltsaskaita-pavyzdys.pdf d.txt
+          grep -q 'Vienas tūkstantis devyni šimtai dvidešimt vienas euras, 48 centai' d.txt
+          rm -rf t a.txt b.txt c.txt d.txt
+      - name: Keep the PDFs
+        run: |
+          sudo find . -name '*.aux' -delete; sudo find . -name '*.log' -delete; sudo find . -name '*.fls' -delete; sudo find . -name '*.fdb_latexmk' -delete; sudo find . -name '*.out' -delete
+          sudo chown -R "$(id -u)" .
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add ltsaskaita/*.pdf vardadieniai/*.pdf
+          git diff --cached --quiet || (git commit -m "Build the documentation" && git pull --rebase && git push)

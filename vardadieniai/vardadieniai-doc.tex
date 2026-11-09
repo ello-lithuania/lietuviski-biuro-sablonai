@@ -1,0 +1,42 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{iftex}
+\ifTUTeX\else
+  \usepackage[L7x]{fontenc}
+  \usepackage{lmodern}
+\fi
+\usepackage[margin=25mm]{geometry}
+\usepackage{vardadieniai}
+\newcommand\cs[1]{\texttt{\textbackslash #1}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\begin{document}
+\begin{center}
+{\Large\bfseries The vardadieniai package}\par\vspace{2mm}
+Lithuanian name days, version 1.0, 2026-11-09\par
+Justas Arbatauskis
+\end{center}
+
+\section*{What it does}
+The package holds the Lithuanian name day calendar (\emph{vardadieniai}) for all 366 days. Use it to add name days to calendars, planners and greeting cards. It works with pdf\LaTeX, Xe\LaTeX\ and Lua\LaTeX. With pdf\LaTeX, use a font encoding with the Lithuanian letters, such as L7x.
+
+\section*{Commands}
+\begin{description}
+\item[\cs{vardadienis}\{month\}\{day\}] prints the names of a day.
+\item[\cs{vardadieniaisiandien}] prints the names of the day the document was compiled.
+\item[\cs{vardodienos}\{name\}] prints the days of a name.
+\item[\cs{vardadieniumenuo}\{month\}] prints every day of a month.
+\end{description}
+Within a day, names that all the checked sources list come first, followed by rarer ones.
+
+\section*{Examples}
+\verb|\vardadienis{11}{9}| gives: \vardadienis{11}{9}.
+
+\verb|\vardodienos{Justas}| gives: \vardodienos{Justas}.
+
+\verb|\vardadieniumenuo{2}| gives:
+
+\vardadieniumenuo{2}
+
+\section*{Sources and licence}
+The data is based on the Lithuanian Wikipedia and checked against the day.lt and tv3.lt calendars. Calendars sometimes differ on rare names. The package and the data are under the Creative Commons Attribution-ShareAlike 4.0 International licence. Home page: \texttt{dovanasuvardu.lt/vardadieniai/}. Source and issues: \texttt{github.com/ello-lithuania/latex-lietuviskai}.
+\end{document}
