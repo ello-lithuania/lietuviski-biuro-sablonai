@@ -29,11 +29,14 @@ jobs:
         run: docker build -t "$HUB/${{ matrix.name }}:latest" "${{ matrix.name }}"
       - name: Test
         run: |
-          docker run -d --rm --name t -p 8080:80 "$HUB/${{ matrix.name }}:latest"
+          docker run -d --rm --name probe -p 8080:80 "$HUB/${{ matrix.name }}:latest"
           sleep 3
-          curl -sf "http://localhost:8080${{ matrix.path }}" | tee out.txt | head -c 300
+          curl -sf -o out.txt "http://localhost:8080${{ matrix.path }}"
+          head -c 300 out.txt; echo
           grep -q "${{ matrix.expect }}" out.txt
-          docker stop t
+          curl -s -o /dev/null -w "%{http_code} %{content_type}\n" "http://localhost:8080${{ matrix.path }}"
+          docker image ls "$HUB/${{ matrix.name }}" --format "{{.Size}}"
+          docker stop probe
       - name: Publish
         env:
           TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
