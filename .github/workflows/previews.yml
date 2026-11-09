@@ -1,0 +1,51 @@
+name: Check templates and build previews
+
+on:
+  push:
+    branches: [main]
+    paths: ["sablonai/**", ".github/workflows/previews.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: previews
+  cancel-in-progress: true
+
+jobs:
+  previews:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install LibreOffice
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq --no-install-recommends libreoffice-calc poppler-utils fonts-liberation
+          soffice --version
+      - name: Convert templates
+        run: |
+          rm -rf previews check
+          mkdir -p previews check
+          for f in sablonai/*.ots; do
+            n=$(basename "$f" .ots)
+            soffice --headless --convert-to pdf --outdir check "$f"
+            soffice --headless --convert-to 'csv:Text - txt - csv (StarCalc):44,34,76,1,,0,false,true,false,false,false,-1' --outdir "check/$n" "$f"
+            pdfinfo "check/$n.pdf" | grep -E 'Pages|Page size' > "previews/$n.txt"
+            pdftoppm -png -r 70 "check/$n.pdf" "previews/$n"
+          done
+          for d in check/*/; do
+            n=$(basename "$d")
+            for c in "$d"*.csv; do
+              echo "=== $(basename "$c")" >> "previews/$n.txt"
+              head -60 "$c" >> "previews/$n.txt"
+            done
+          done
+          ls previews | head -60
+      - name: Commit previews
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add previews
+          git diff --cached --quiet || git commit -m "Update previews [skip ci]"
+          git push
